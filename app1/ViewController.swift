@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func changedtext(sender: AnyObject) {
+        // test for commit
         if ( sender is UIButton)
         {
         
