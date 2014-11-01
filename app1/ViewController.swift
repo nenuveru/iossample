@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     
     @IBAction func changedtext(sender: AnyObject) {
         // test for commit
+        // test2 for commit
         if ( sender is UIButton)
         {
         
@@ -29,6 +30,8 @@ class ViewController: UIViewController {
             x = x * 7
             otext.text = "\(x)"
             sendButton.setTitle ("Done" , forState:UIControlState.Normal)
+            sendButton.backgroundColor = UIColor.greenColor()
+            itext.text = ""
             itext.resignFirstResponder()
             
         }
